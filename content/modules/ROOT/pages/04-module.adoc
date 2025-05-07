@@ -53,7 +53,7 @@ image::hybrid-cloud-rhel-inventory-search.jpg[Inventory]
 +
 ****
 [upperroman]
-.Search Keyworkd
+.Search Keyword
 image::hybrid-cloud-rhel-inventory-search-keyword.jpg[Inventory keyword]
 ****
 
@@ -251,7 +251,7 @@ image::hybrid-cloud-malware-node-details.jpg[Node]
 [upperroman]
 
 
-.. Go to *Automation Decisions → Rulebook Activations* and Observe - *RH Insights rulebook* Rulebook Activations *Fire Count* has been increasd.
+.. Go to *Automation Decisions → Rulebook Activations* and Observe - *RH Insights rulebook* Rulebook Activations *Fire Count* has been increased.
 +
 ****
 .Rulebook Activation
@@ -269,9 +269,9 @@ image::aap-job-run.jpg[Job Template Run]
 
 In summary, You have created a connection between the Ansible Automation Platform 2.5 Event-Driven Ansible environment and Insights.
 You created a notification behavior group that calls this integration when Malware is detected on a RHEL host.
-Upon receiving an event on Malware being detected, Ansible Automation Platform runs a rulebook.
+Upon receiving an event on Malware being detected, Ansible Automation Platform runs a playbook.
 
-This rulebook doesn't really do much today, but you could create a rulebook that follows the policies and procedures of your organization in the event that malware is detected.
+This playbook doesn't really do much today, but you could create a playbook that follows the policies and procedures of your organization in the event that malware is detected.
 
 That completes this exercise on integrating Event-Driven Ansible with Red Hat Insights.
 
