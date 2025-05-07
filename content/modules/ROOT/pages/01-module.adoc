@@ -61,7 +61,7 @@ NOTE: This user has limited permissions in the Red Hat Hybrid Cloud Console. Whi
 [upperroman]
 
 // .. Login Details:
-. *Ansible Automation Platfrom URL:* {aap_controller_web_url}[window=_blank]
+. *Ansible Automation Platform URL:* {aap_controller_web_url}[window=_blank]
 . *Username:* {aap_controller_admin_user}
 . *Password:* {aap_controller_admin_password}
 ****
@@ -152,7 +152,7 @@ Let's take a moment to explore the Automation Decision that has already been con
 [upperroman]
 
 . *Default Decision Environment* - is the default environment that uses the registry.redhat.io/ansible-automation-platform-25/de-supported-rhel8:latest image.
-. *AAP2.5 - OCP4 Custom Decision* - is a custom decision environment built from the default environment. This decsion environment includes a custom Event-Driven Ansible plugin, k8s, and is hosted on quay.io/mitsharm/eda/de-for-ocp-aap-25:latest.
+. *AAP2.5 - OCP4 Custom Decision* - is a custom decision environment built from the default environment. This decision environment includes a custom Event-Driven Ansible plugin, k8s, and is hosted on quay.io/mitsharm/eda/de-for-ocp-aap-25:latest.
 ****
 
 . The following Event Streams have been pre-configured for this lab. For more details, navigate to *Automation Decisions → Event Streams*. 
